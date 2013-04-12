@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Test::DiagRef;
 {
-  $Test::DiagRef::VERSION = '1.130670';
+  $Test::DiagRef::VERSION = '1.131020';
 }
 # ABSTRACT: detailed diagnostics for your reference tracking tests
 
@@ -47,7 +47,7 @@ Test::DiagRef - Detailed diagnostics for your reference tracking tests
 
 =head1 VERSION
 
-version 1.130670
+version 1.131020
 
 =head1 SYNOPSIS
 
