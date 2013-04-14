@@ -17,4 +17,5 @@ recommends:
   Devel::FindRef: 0
 requires:
   Test::More: 0
-version: 1.131020
+  perl: 5
+version: 1.131040
