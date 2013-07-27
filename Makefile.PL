@@ -20,12 +20,11 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Test::DiagRef",
   "PREREQ_PM" => {
+    "Exporter" => "5.57",
     "Test::More" => 0
   },
-  "TEST_REQUIRES" => {
-    "Test::More" => "0.88"
-  },
-  "VERSION" => "1.131040",
+  "TEST_REQUIRES" => {},
+  "VERSION" => "1.132080",
   "test" => {
     "TESTS" => "t/*.t"
   }

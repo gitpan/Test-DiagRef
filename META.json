@@ -4,7 +4,7 @@
       "Olivier Mengu\u00c3\u00a9 <dolmen@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300033, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -22,8 +22,8 @@
       "develop" : {
          "requires" : {
             "Devel::FindRef" : "0",
-            "Test::Pod" : "1.41",
-            "version" : "0.9901"
+            "Test::CPAN::Changes" : "0.19",
+            "Test::Pod" : "1.41"
          }
       },
       "runtime" : {
@@ -31,17 +31,21 @@
             "Devel::FindRef" : "0"
          },
          "requires" : {
+            "Exporter" : "5.57",
             "Test::More" : "0",
             "perl" : "5"
-         }
-      },
-      "test" : {
-         "requires" : {
-            "Test::More" : "0.88"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "1.131040"
+   "resources" : {
+      "homepage" : "https://github.com/dolmen/p5-Test-DiagRef",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/dolmen/p5-Test-DiagRef.git",
+         "web" : "https://github.com/dolmen/p5-Test-DiagRef"
+      }
+   },
+   "version" : "1.132080"
 }
 

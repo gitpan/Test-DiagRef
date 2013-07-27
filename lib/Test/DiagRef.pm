@@ -2,21 +2,18 @@ use strict;
 use warnings;
 package Test::DiagRef;
 {
-  $Test::DiagRef::VERSION = '1.131040';
+  $Test::DiagRef::VERSION = '1.132080';
 }
 # ABSTRACT: detailed diagnostics for your reference tracking tests
 
-use Exporter;
-our @EXPORT_OK = 'diag_ref';
+use Exporter 5.57 'import';
+our @EXPORT = 'diag_ref';
 
 use Test::More ();
 
 BEGIN {
     *diag = \&Test::More::diag;
 }
-
-use Exporter 'import';
-our @EXPORT = 'diag_ref';
 
 sub diag_ref ($)
 {
@@ -47,7 +44,7 @@ Test::DiagRef - Detailed diagnostics for your reference tracking tests
 
 =head1 VERSION
 
-version 1.131040
+version 1.132080
 
 =head1 SYNOPSIS
 
